@@ -1,0 +1,22 @@
+.box
+{
+  height:100px;
+  width:100px;
+  position: absolute;
+}
+.box1{
+    top:30px;
+    left:20px;
+    z-index: 2;
+    background-color: blueviolet;
+}
+.box2{
+    top:9%;
+    left:5%;
+    z-index: 3;
+    background-color: aqua;
+}
+.box2:hover{
+    background-color: chartreuse;
+    border-radius: 50%;
+}
